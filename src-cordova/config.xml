@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.coffeecloudapp.coffeecloud" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CoffeeCloud</name>
+    <description>
+        Aplicacion para la vigilancia de la Roya del cafe.
+    </description>
+    <author email="info@anacaafe.org" href="https://www.anacafe.org">
+        Asociacion Nacional del Cafe
+    </author>
+    <!-- this hook will point your config.xml to the DevServer on Serve -->
+    <hook type="after_prepare" src="../node_modules/vue-cli-plugin-cordova/serve-config-hook.js" />
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#000000" />  
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="WKWebViewOnly" value="true" />
+        <feature name="CDVWKWebViewEngine">
+            <param name="ios-package" value="CDVWKWebViewEngine" />
+        </feature>
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+        <preference name="DisallowOverscroll" value="false" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarBackgroundColor" value="#83003e" />
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
+        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+            <string>Localization of coffee production units for roya testing / Localizacion de las unidades productivas de cafe para el muestrero de roya</string>
+        </edit-config>
+        <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
+            <string>Localization of coffee production units for roya testing / Localizacion de las unidades productivas de cafe para el muestrero de roya</string>
+        </edit-config>
+        
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="res/icon/ios/Icon-App-60x60@3x.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/icon/ios/Icon-App-20x20@3x.png" width="60" height="60" />
+        <icon src="res/icon/ios/Icon-App-60x60@2x.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/Icon-App-76x76@1x.png" width="76" height="76" />
+        <icon src="res/icon/ios/Icon-App-76x76@2x.png" width="152" height="152" />
+        <!-- Spotlight Icon -->
+        <icon src="res/icon/ios/Icon-App-40x40@1x.png" width="40" height="40" />
+        <icon src="res/icon/ios/Icon-App-40x40@2x.png" width="80" height="80" />
+        <!-- iOS 6.1 -->
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/icon/ios/Icon-App-76x76@1x.png" width="76" height="76" />
+        <icon src="res/icon/ios/Icon-App-76x76@2x.png" width="152" height="152" />
+        <!-- iPad -->
+        <icon src="res/icon/ios/Icon-App-29x29@1x.png" width="29" height="29" />
+        <icon src="res/icon/ios/Icon-App-29x29@2x.png" width="58" height="58" />
+        <icon src="res/icon/ios/Icon-App-29x29@3x.png" width="87" height="87" />
+        
+        <!-- iPad Pro -->
+        <icon src="res/icon/ios/Icon-App-83.5x83.5@2x.png" width="167" height="167" />
+        <icon src="res/icon/ios/ItunesArtwork@2x.png" width="1024" height="1024" />
+
+    </platform>
+</widget>

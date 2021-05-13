@@ -1,0 +1,135 @@
+  
+.leaflet-tooltip.my-labels {
+  background-color: transparent;
+  color: whitesmoke;
+  border: transparent;
+  box-shadow: none;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 16px;
+}
+
+.leaflet-tooltip.my-labelss {
+  background-color: rgba(255,255,255,0.3);
+  color: whitesmoke;
+  border: transparent;
+  box-shadow: none;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 14px;
+}
+
+.leaflet-tooltip.temp {
+  background-color: transparent;
+  border: transparent;
+  box-shadow: none;
+  font-weight: bold; 
+  font-size: 16px;
+}
+
+.azul {
+    color:blue;
+      text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
+}
+    
+.verde {
+    color:green;
+    text-shadow:
+      -2px -2px 0 #000,
+		2px -2px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+     
+.verdeo {
+    color:teal;
+    text-shadow:
+      -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+    
+.amarillo {
+    color:yellow;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+    
+.naranja {
+    color:orange;text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+        
+.rojo {
+    color:red; text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
+}
+
+.corinto {
+    color:darkred;
+    text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
+}
+     
+.ladrillo {
+    color:crimson;
+    text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
+}
+    
+.blanco{color:white;}
+    
+.leaflet-tooltip.precip {
+  background-color: transparent;
+  color: blue;
+  border: transparent;
+  box-shadow: none;
+
+ text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 20px;
+}
+
+.leaflet-control-layers:nth-child(1) .leaflet-control-layers-toggle {
+    background-image: url(https://anacafe-met.firebaseapp.com/assets/img/signal-tower.png);
+    background-size: 30px;
+}
+
+.leaflet-control-layers:nth-child(2) .leaflet-control-layers-toggle {
+    background-image: url(https://anacafe-met.firebaseapp.com/assets/img/space.png);
+    background-size: 30px;
+}
+
+.leaflet-control-layers:nth-child(3) .leaflet-control-layers-toggle {
+    background-image: url(https://anacafe-met.firebaseapp.com/assets/img/coffee-bean.png);
+    background-size: 30px;
+}
